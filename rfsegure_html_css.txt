@@ -1,0 +1,56 @@
+URL: https://rfsegure.mcomunica.com.br/
+
+OBSERVAÇÃO:
+- Coleta feita via navegador automatizado (Playwright) nesta sessão.
+- Este arquivo contém o HTML renderizado (início) e todas as URLs de CSS detectadas na página.
+
+===== HTML RENDERIZADO (TRECHO INICIAL) =====
+<!DOCTYPE html><html lang="pt-BR"><head>
+	<meta charset="UTF-8">
+		<title>RF SEGURE BETA</title>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="Feed para RF SEGURE BETA »" href="https://rfsegure.mcomunica.com.br/feed/">
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para RF SEGURE BETA »" href="https://rfsegure.mcomunica.com.br/comments/feed/">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://rfsegure.mcomunica.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frfsegure.mcomunica.com.br%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://rfsegure.mcomunica.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frfsegure.mcomunica.com.br%2F&amp;format=xml">
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+</style>
+<link rel="stylesheet" id="astra-theme-css-css" href="https://rfsegure.mcomunica.com.br/wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.12.4" media="all">
+...
+
+===== CSS (LINKS ENCONTRADOS) =====
+https://rfsegure.mcomunica.com.br/wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.12.4
+https://fonts.googleapis.com/css?family=Montserrat%3A400%2C%2C700%2C800%7CStaatliches%3A400&display=fallback&ver=4.12.4
+https://rfsegure.mcomunica.com.br/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=2.8.5
+https://rfsegure.mcomunica.com.br/wp-includes/css/dashicons.min.css?ver=6.9.4
+https://rfsegure.mcomunica.com.br/wp-content/plugins/astra-portfolio/dist/fscript.css?ver=1.13.1
+https://rfsegure.mcomunica.com.br/wp-content/plugins/latepoint/public/stylesheets/front.css?ver=5.2.11
+https://rfsegure.mcomunica.com.br/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=2.8.5
+https://rfsegure.mcomunica.com.br/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.47.0
+https://rfsegure.mcomunica.com.br/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.35.7
+https://rfsegure.mcomunica.com.br/wp-content/uploads/elementor/css/post-960.css?ver=1773327584
+https://rfsegure.mcomunica.com.br/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.35.7
+https://rfsegure.mcomunica.com.br/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.35.7
+https://rfsegure.mcomunica.com.br/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=3.35.7
+https://rfsegure.mcomunica.com.br/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.35.7
+https://rfsegure.mcomunica.com.br/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css?ver=3.35.7
+https://rfsegure.mcomunica.com.br/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css?ver=3.35.7
+https://rfsegure.mcomunica.com.br/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.35.7
+https://rfsegure.mcomunica.com.br/wp-content/plugins/elementor/assets/css/widget-google_maps.min.css?ver=3.35.7
+https://rfsegure.mcomunica.com.br/wp-content/uploads/elementor/css/post-6.css?ver=1773333714
+https://rfsegure.mcomunica.com.br/wp-content/plugins/hostinger-reach/frontend/dist/blocks/subscription.css?ver=1773271157
+https://rfsegure.mcomunica.com.br/wp-content/uploads/astra-addon/astra-addon-69b2e03b5d0838-91871937.css?ver=4.11.0
+https://rfsegure.mcomunica.com.br/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.34.0
+https://rfsegure.mcomunica.com.br/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.24.3
+https://rfsegure.mcomunica.com.br/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.24.0
+https://rfsegure.mcomunica.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.css?ver=5.15.3
+https://rfsegure.mcomunica.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.css?ver=5.15.3
+https://rfsegure.mcomunica.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css?ver=5.15.3
+https://fonts.googleapis.com/css?family=Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap
+https://fonts.googleapis.com/css?family=Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap
+https://fonts.googleapis.com/css?family=Open+Sans:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap
+https://rfsegure.mcomunica.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3
+https://rfsegure.mcomunica.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3
+https://rfsegure.mcomunica.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3
