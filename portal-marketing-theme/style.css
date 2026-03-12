@@ -1,0 +1,258 @@
+/*
+Theme Name: Portal Marketing News
+Theme URI: https://example.com/portal-marketing-news
+Author: Codex
+Author URI: https://example.com
+Description: Tema editorial moderno para portais de notícias de publicidade, marketing e comunicação, com base totalmente compatível com Elementor.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.5
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: portal-marketing-news
+Tags: news, blog, one-column, two-columns, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+:root {
+  --pmn-primary: #d71920;
+  --pmn-secondary: #111111;
+  --pmn-surface: #ffffff;
+  --pmn-muted: #6b7280;
+  --pmn-border: #e5e7eb;
+  --pmn-max-width: 1200px;
+  --pmn-title-font: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --pmn-body-font: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--pmn-body-font);
+  color: var(--pmn-secondary);
+  background: #f8fafc;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: var(--pmn-primary);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pmn-container {
+  width: min(100% - 2rem, var(--pmn-max-width));
+  margin-inline: auto;
+}
+
+.pmn-site-header,
+.pmn-site-footer {
+  background: var(--pmn-surface);
+  border-bottom: 1px solid var(--pmn-border);
+}
+
+.pmn-header-inner {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.pmn-logo {
+  font: 700 1.5rem/1 var(--pmn-title-font);
+  color: var(--pmn-primary);
+}
+
+.pmn-main-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 600;
+}
+
+.pmn-search-form {
+  display: flex;
+  gap: .5rem;
+}
+
+.pmn-search-form input[type="search"] {
+  border: 1px solid var(--pmn-border);
+  border-radius: .5rem;
+  padding: .55rem .75rem;
+}
+
+.pmn-search-form button,
+.pmn-newsletter button,
+.pmn-share a {
+  border: none;
+  border-radius: .5rem;
+  padding: .55rem .9rem;
+  background: var(--pmn-primary);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pmn-main {
+  padding: 1.5rem 0 2.5rem;
+}
+
+.pmn-grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.pmn-home-hero {
+  grid-template-columns: 2fr 1fr;
+}
+
+.pmn-card {
+  background: var(--pmn-surface);
+  border: 1px solid var(--pmn-border);
+  border-radius: .75rem;
+  overflow: hidden;
+}
+
+.pmn-card-content { padding: 1rem; }
+
+.pmn-kicker {
+  color: var(--pmn-primary);
+  text-transform: uppercase;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .05em;
+}
+
+.pmn-title,
+.entry-title {
+  margin: .35rem 0 .6rem;
+  font-family: var(--pmn-title-font);
+  line-height: 1.2;
+}
+
+.pmn-title { font-size: clamp(1rem, 2.2vw, 1.55rem); }
+.pmn-title--xl { font-size: clamp(1.6rem, 3.4vw, 2.6rem); }
+
+.pmn-meta,
+.entry-meta {
+  color: var(--pmn-muted);
+  font-size: .85rem;
+}
+
+.pmn-home-sections {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.pmn-section-title {
+  margin: 0 0 .85rem;
+  padding-bottom: .5rem;
+  border-bottom: 2px solid var(--pmn-primary);
+  font: 800 1.1rem/1.3 var(--pmn-title-font);
+}
+
+.pmn-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: .9rem;
+}
+
+.pmn-sidebar {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.pmn-banner,
+.pmn-newsletter {
+  padding: 1rem;
+  background: #0f172a;
+  color: #fff;
+  border-radius: .75rem;
+}
+
+.pmn-newsletter input {
+  width: 100%;
+  margin: .5rem 0;
+  padding: .55rem .75rem;
+  border: none;
+  border-radius: .5rem;
+}
+
+.pmn-content-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(250px, 1fr);
+  gap: 1.25rem;
+}
+
+.entry-content {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.pmn-related {
+  margin-top: 2rem;
+  border-top: 1px solid var(--pmn-border);
+  padding-top: 1rem;
+}
+
+.pmn-breadcrumbs {
+  font-size: .85rem;
+  color: var(--pmn-muted);
+  margin-bottom: 1rem;
+}
+
+.pmn-site-footer {
+  border-top: 1px solid var(--pmn-border);
+  border-bottom: 0;
+  margin-top: 2rem;
+}
+
+.pmn-footer-inner {
+  padding: 1.25rem 0;
+  color: var(--pmn-muted);
+  font-size: .9rem;
+}
+
+@media (max-width: 991px) {
+  .pmn-header-inner,
+  .pmn-home-hero,
+  .pmn-home-sections,
+  .pmn-content-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .pmn-main-nav ul {
+    overflow-x: auto;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 640px) {
+  .pmn-container {
+    width: min(100% - 1rem, var(--pmn-max-width));
+  }
+
+  .pmn-search-form {
+    width: 100%;
+  }
+
+  .pmn-search-form input[type="search"] {
+    flex: 1;
+  }
+}
